@@ -1,0 +1,130 @@
+.footer {
+background-color: #e2e2e2;
+margin-top: 50px;
+
+	.footer-descri {
+		padding-top: 30px;
+		padding-left: 90px;
+		padding-right: 50px;
+
+			span, p {
+				font-family: Georgia;
+				color: #999999
+			}
+
+			h5 {
+				font-family: Georgia;
+			}
+	}
+
+	.footer-content {
+		padding-top: 10px;
+
+
+		.footer-img {
+			min-width: 110px;
+			position: absolute;
+			padding-top: 5px;
+		
+			img {
+				max-width: 95px;
+				max-height: 95px;
+			}
+		}
+
+		.img-descri {
+			max-width: 375px;
+			margin-left: 100px;
+			padding-left: 10px;
+			padding-top: 5px;
+			h5 {
+				color: #e2494b;
+			}
+		}
+
+		input {
+			border-radius: 5px 5px;
+			border: 1px solid white;
+			min-height: 35px;
+			min-width: 200px;
+			padding-left: 10px;
+			font-family: Georgia;
+		}
+
+		.txtbox1 {
+			margin-top: 2px;
+		}
+
+		.txtbox2 {
+			margin-top: 9px;
+		}
+		.txtbox3 {
+			min-height: 100px;
+			min-width: 200px;
+			padding: 7px;
+			border-radius: 5px 5px;
+			border: 1px solid white;
+			margin-top: 10px;
+			font-family: Georgia;
+		}
+
+		button {
+			margin-top: 4px;
+			background-color: #e2494b;
+			color: white;
+			min-height: 30px;
+			min-width: 90px;
+			border-radius: 5px 5px;
+			border: 1px solid #e2494b;
+			font-family: Georgia;
+		}
+	}
+
+
+	.footer-content2 {
+		padding-top: 10px;
+
+		.tel-num {
+			margin-top: 8px;
+			.domain {
+				color: #e2494b;
+			}
+		}
+
+		.office-hrs {
+			margin-top: 8px;
+		}
+	}
+
+	.line {
+		max-width: 960px;
+		margin-top: 320px;
+		border: 1px solid #c3c3c3;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.line2 {
+		max-width: 960px;
+		border: 1px solid #fff;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.copyright {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+
+		.year {
+			margin-right: 235px;
+		}
+
+		.template {
+			margin-left: 30px;
+		}
+		span {
+			color: #999999;
+			font-family: Georgia;
+		}
+	}	
+}

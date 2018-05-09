@@ -1,0 +1,30 @@
+$color1: #e2494b;
+
+.header {
+	margin-top: 20px;
+	.navbar-header {
+		padding-left: 90px;
+		margin-top: 20px;
+	}
+}
+
+#linkNavbar {
+	background-color: $color1;
+	margin-right: 90px;
+	border-radius: 10px 10px 10px 10px;
+	
+    a {
+		color: white;
+		text-align: center;
+		font-family: Georgia;
+		font-size: 13px;
+
+    	&:hover {
+			opacity: 0.5;
+		}
+	}
+}
+    
+
+
+

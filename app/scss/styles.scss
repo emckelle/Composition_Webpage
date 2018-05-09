@@ -1,0 +1,150 @@
+@import "./layouts/header";
+@import "./layouts/footer";
+
+
+$color2: #e2e2e2;
+$color3: #cecece;
+
+body {
+	hr {
+		border: 1px solid $color2;
+		margin-top: 20px;
+	}
+
+	.row2 {
+		.row2-descri {
+			h3 {
+				font-style: italic;
+				font-family: Georgia;
+				min-width: 70%;
+	    		margin: 0 auto;
+	    		padding-bottom: 40px;
+	    		padding-top: 30px;
+	    		text-align: center;
+			}
+		}
+		.carousel-indicators {
+			bottom: -40px;
+				li{
+					background-color: $color2;
+					margin-top: 50px;
+				}
+		}
+
+		.carousel-inner {
+			margin: 0 auto;
+			max-width: 960px;
+			max-height: 350px;
+			margin-bottom: 30px;
+		}
+		img {
+			min-width: 960px;
+			max-height: 350px;
+		}
+	}
+
+	.row3 {
+
+		.services-content {
+			padding-top: 50px;
+		}
+
+		.box {
+			background-color: #333333;
+			min-width: 30px;
+			min-height: 30px;
+			display: inline-block;
+		}
+
+		a {
+			color: #e2494b;
+			text-decoration: none;
+			font-family: Georgia;
+		}
+
+		span {
+			font-family: Georgia;
+			color: #666666;
+		}
+
+		p {
+			font-family: Georgia;
+			color: #979797;
+		}
+	}
+
+	.row4 {
+		padding-left: 70px;
+		padding-right: 70px;
+		padding-bottom: 20px;
+
+		.players-descri {
+			padding-top: 40px; 
+		}
+			
+		img {
+			padding-bottom: 10px;
+		}
+		a {
+			color: #e2494b;
+			text-decoration: none;
+		}
+		span, p {
+			font-family: Georgia;
+			color: #979797;
+			padding-top: 10px;
+		}
+	}
+
+	.row5 { 
+		padding-top: 35px; 
+
+		.box-large {
+			text-align: center;
+
+			.row5-box {
+				background-color: #333333;
+				min-width: 300px;
+				min-height: 160px;
+				margin-top: 10px;
+				display: inline-block;
+				margin: 13px;
+				padding-top: 65px;
+			}
+			span {
+				color: white;
+				font-size: 20px;
+				font-family: Georgia;
+			}
+		}
+	}
+			.line {
+				max-width: 960px;
+				margin-top: 40px;
+				border: 1px solid $color2;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.row-banner {
+				background-color: #e2494b;
+				border-radius: 7px 7px 7px 7px;
+				max-width: 170px;
+				min-height: 30px;
+				padding-top: 3px;
+				margin-top: -15px;
+				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
+					span {
+						color: white;
+						font-size: 18px;
+						font-family: Georgia;
+					}
+			}
+
+			.services-content {
+				padding-left: 70px;
+				padding-right: 70px;
+			}
+}
